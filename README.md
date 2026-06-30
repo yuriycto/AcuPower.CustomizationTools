@@ -131,7 +131,7 @@ builder.AddSqlTableSchema("MyTable", schemaXml);
 
 ### PowerShell
 
-Load the assembly and call the static helper class:
+Ready-to-run scripts are in [`scripts/`](scripts/) (`build-package.ps1`, `publish.ps1`) — see [scripts/README.md](scripts/README.md). To call the library directly, load the assembly and use the static helper class:
 
 ```powershell
 Add-Type -Path ".\bin\Release\netstandard2.0\AcuPower.CustomizationTools.dll"
